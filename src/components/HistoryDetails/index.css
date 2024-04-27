@@ -1,0 +1,76 @@
+.li-container {
+  display: flex;
+  flex-direction: column;
+}
+.time {
+  padding: 0px;
+  margin: 0px;
+}
+.logo-domain-delete-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  margin: 1px;
+}
+
+.logo-domain-card {
+  display: flex;
+  padding: 0px;
+  margin: 0px;
+}
+.logo-card {
+  align-self: center;
+}
+.logo-icon {
+  width: 60%;
+}
+.domain-card {
+  align-self: center;
+}
+.domain-title {
+  color: #475569;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+.domain-url {
+  color: #64748b;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+.delete-card {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.delete-logo {
+  margin-right: 10px;
+}
+
+@media (min-width: 577px) {
+  .li-container {
+    flex-direction: row;
+    align-items: center;
+    margin: 10px;
+  }
+  .time {
+    margin-right: 30px;
+    width: 100%;
+  }
+  .logo-domain-delete-container {
+    justify-content: space-between;
+    width: 100%;
+  }
+  .domain-card {
+    display: flex;
+  }
+  .domain-title {
+    margin: 0px;
+    padding: 0px;
+    margin-right: 20px;
+  }
+  .domain-url {
+    margin: 0px;
+    padding: 0px;
+  }
+}
